@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HONJOH AYUMI | Multi-Artist</title>
+  <meta name="description" content="本城あゆみ — 画家・農家・ピアニスト・ライター。鳥取の山奥で絵を描き、畑を耕し、音を奏で、言葉を紡ぐマルチアーティスト。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Sans+JP:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader" class="loader">
+    <div class="loader-line"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="nav" class="nav">
+    <a href="#" class="nav-logo">HONJOH</a>
+    <div class="nav-center">
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#farm">Farm</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-social">
+      <a href="https://www.youtube.com/@honjoh_ayumi" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/honjohayumi/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="https://www.tiktok.com/@honjoh_ayumi" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+      </a>
+      <a href="https://note.com/honjoh_ayumi" target="_blank" rel="noopener" aria-label="note" title="note">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M15.9 7.2h-2.8c-2.2 0-4.1 1.7-4.1 4.3v8.2c0 .5.4.9.9.9h1c.5 0 .9-.4.9-.9v-6.3c0-1.2.9-2.1 2.1-2.1h2.8c.5 0 .9-.4.9-.9V8.1c-.1-.5-.5-.9-1.7-.9z"/></svg>
+      </a>
+      <a href="https://x.com/honjoh_" target="_blank" rel="noopener" aria-label="X" title="X">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+    </div>
+    <button id="nav-toggle" class="nav-toggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="31412_0.jpg" alt="Honjoh Ayumi with keyboard" class="hero-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-tag" data-animate="fade-up">Painter · Farmer · Pianist · Writer</div>
+        <h1 class="hero-title" data-animate="fade-up" data-delay="200">
+          <span class="hero-title-line">HONJOH</span>
+          <span class="hero-title-line">AYUMI</span>
+        </h1>
+        <p class="hero-sub" data-animate="fade-up" data-delay="400">
+          描いて、耕して、奏でて、綴る。<br>
+          鳥取の山奥から。
+        </p>
+      </div>
+      <div class="hero-scroll" data-animate="fade-up" data-delay="600">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="section-inner">
+      <div class="split">
+        <div class="split-text" data-animate="fade-right">
+          <span class="section-label">About</span>
+          <h2 class="section-title">土と絵の具のあいだで<br>暮らしをつくる。</h2>
+          <p class="section-body">
+            油彩、アクリル、ピアノ、弾き語り、文章、そして農業。
+            2025年、大阪から鳥取の山奥へ移住。
+            元水田だった1200m²の土地を耕しながら、
+            あらゆる手段で「いま、ここ」を表現しています。
+          </p>
+          <div class="about-roles" data-animate="fade-up" data-delay="200">
+            <div class="role">
+              <span class="role-name">Painter</span>
+            </div>
+            <div class="role">
+              <span class="role-name">Farmer</span>
+            </div>
+            <div class="role">
+              <span class="role-name">Pianist</span>
+            </div>
+            <div class="role">
+              <span class="role-name">Writer</span>
+            </div>
+          </div>
+        </div>
+        <div class="split-visual" data-animate="fade-left">
+          <div class="about-mosaic">
+            <img src="31364_0.jpg" alt="Atelier" class="mosaic-img mosaic-main">
+            <img src="work_piano.jpg" alt="Piano" class="mosaic-img mosaic-sub1">
+            <img src="work_farm.jpg" alt="Farm" class="mosaic-img mosaic-sub2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section — Full Gallery -->
+  <section id="work" class="section work">
+    <div class="section-inner">
+      <span class="section-label" data-animate="fade-up">Work</span>
+      <h2 class="section-title" data-animate="fade-up">Selected Works</h2>
+      <p class="section-body" data-animate="fade-up">
+        油彩・アクリル画を中心に、動物や風景、静物を描いています。<br>
+        小さな人が絵の中で冒険する「小人シリーズ」も制作中。
+      </p>
+    </div>
+
+    <div class="gallery-full" data-animate="fade-up" data-delay="200">
+      <div class="gallery-track">
+        <div class="gallery-card">
+          <img src="31363_0.jpg" alt="Santorini" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">サントリーニ島</span>
+            <span class="gallery-card-medium">Oil on Canvas</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31359_0.jpg" alt="Peaches" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">桃の上で舞踏会</span>
+            <span class="gallery-card-medium">Oil — 小人シリーズ</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31361_0.jpg" alt="Shiba Inu" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">秋風になる</span>
+            <span class="gallery-card-medium">Oil on Canvas</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31357_0.jpg" alt="Whale" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">潜水艦の窓から</span>
+            <span class="gallery-card-medium">Oil on Canvas</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31362_0.jpg" alt="Grapes" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">収穫の喜び -葡萄-</span>
+            <span class="gallery-card-medium">Oil — 小人シリーズ</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31356_0.jpg" alt="Duck" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">アヒルと睡蓮</span>
+            <span class="gallery-card-medium">Oil on Canvas</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31360_0.jpg" alt="Mouse and Bear" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">大きな彼女と小さなボク</span>
+            <span class="gallery-card-medium">Acrylic</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="31358_0.jpg" alt="Cat in Meadow" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">ねこがねころぶ</span>
+            <span class="gallery-card-medium">Oil on Canvas</span>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="work_art.jpg" alt="Teapot" class="gallery-card-img">
+          <div class="gallery-card-info">
+            <span class="gallery-card-title">ティーポット</span>
+            <span class="gallery-card-medium">Oil Pastel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-inner">
+      <div class="work-cta" data-animate="fade-up" data-delay="300">
+        <a href="https://honjoh.base.shop/" class="btn" target="_blank" rel="noopener">
+          View Shop
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+            <path d="M7 17L17 7M17 7H7M17 7v10"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="section media">
+    <div class="section-inner">
+      <span class="section-label" data-animate="fade-up">Media</span>
+      <h2 class="section-title" data-animate="fade-up">Writing & Media</h2>
+      <div class="media-grid" data-animate="fade-up" data-delay="200">
+        <a href="https://ontama.media" target="_blank" rel="noopener" class="media-card">
+          <div class="media-card-inner">
+            <div class="media-card-badge">Music Media</div>
+            <h3 class="media-card-title">ontama</h3>
+            <p class="media-card-desc">
+              インディーズ音楽に光を当てるWebメディア。<br>
+              アーティストの「原点」と「想い」を深掘りインタビューで発信。
+            </p>
+            <span class="media-card-link">
+              ontama.media
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14">
+                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a href="https://na-na.media" target="_blank" rel="noopener" class="media-card">
+          <div class="media-card-inner">
+            <div class="media-card-badge">Local Web Magazine</div>
+            <h3 class="media-card-title">na-na</h3>
+            <p class="media-card-desc">
+              日本海テレビが運営する山陰ローカルWEBマガジン。<br>
+              画家x農家の視点で、鳥取の暮らしとアートを発信。
+            </p>
+            <span class="media-card-link">
+              na-na.media
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14">
+                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+              </svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Farm Section -->
+  <section id="farm" class="section farm">
+    <div class="section-inner">
+      <div class="split split--reverse">
+        <div class="split-text" data-animate="fade-left">
+          <span class="section-label">Farm</span>
+          <h2 class="section-title">
+            泥だらけの手で、<br>キャンバスに向かう。
+          </h2>
+          <p class="section-body">
+            元水田だった1200m²の土地を耕して、
+            季節の野菜を育てています。
+          </p>
+          <p class="section-body">
+            朝は畑、午後はアトリエ。
+            土に触れた日の絵はどこか力強い。
+            そんな気がしています。
+          </p>
+          <div class="farm-stats">
+            <div class="stat">
+              <span class="stat-number">1200</span>
+              <span class="stat-unit">m<sup>2</sup></span>
+              <span class="stat-label">Farm Area</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2025</span>
+              <span class="stat-unit">—</span>
+              <span class="stat-label">Year Started</span>
+            </div>
+          </div>
+        </div>
+        <div class="split-visual" data-animate="fade-right">
+          <div class="farm-visual">
+            <img src="work_farm.jpg" alt="Farm life in Tottori" class="farm-photo">
+            <div class="farm-visual-label">Yokomakura, Tottori</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Section -->
+  <section id="youtube" class="section youtube">
+    <div class="section-inner section-inner--narrow">
+      <span class="section-label" data-animate="fade-up">YouTube</span>
+      <h2 class="section-title" data-animate="fade-up">
+        本城あゆみの田舎暮らし
+      </h2>
+      <p class="section-body center" data-animate="fade-up">
+        描いたり、耕したり、弾いたり。<br>
+        山奥のリアルを、そのまま。
+      </p>
+      <div class="yt-cta" data-animate="fade-up" data-delay="200">
+        <a href="https://www.youtube.com/@honjoh_ayumi" class="btn btn--outline" target="_blank" rel="noopener">
+          Subscribe
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+            <polygon points="5,3 19,12 5,21"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SNS Section -->
+  <section id="sns" class="section sns">
+    <div class="section-inner section-inner--narrow">
+      <span class="section-label" data-animate="fade-up">SNS</span>
+      <h2 class="section-title" data-animate="fade-up">Follow</h2>
+      <div class="sns-grid" data-animate="fade-up" data-delay="200">
+        <a href="https://www.youtube.com/@honjoh_ayumi" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">YouTube</span>
+          <span class="sns-card-handle">@honjoh_ayumi</span>
+        </a>
+        <a href="https://www.instagram.com/honjohayumi/" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">Instagram</span>
+          <span class="sns-card-handle">@honjohayumi</span>
+        </a>
+        <a href="https://www.tiktok.com/@honjoh_ayumi" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">TikTok</span>
+          <span class="sns-card-handle">@honjoh_ayumi</span>
+        </a>
+        <a href="https://note.com/honjoh_ayumi" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">note</span>
+          <span class="sns-card-handle">honjoh_ayumi</span>
+        </a>
+        <a href="https://x.com/honjoh_" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">X</span>
+          <span class="sns-card-handle">@honjoh_</span>
+        </a>
+        <a href="https://www.threads.net/@honjohayumi" target="_blank" rel="noopener" class="sns-card">
+          <span class="sns-card-name">Threads</span>
+          <span class="sns-card-handle">@honjohayumi</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2 class="footer-title">HONJOH<br>AYUMI</h2>
+          <p class="footer-tagline">描いて、耕して、奏でて、綴る。<br>Yokomakura, Tottori, Japan</p>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-heading">Follow</h3>
+          <ul class="social-list">
+            <li><a href="https://www.instagram.com/honjohayumi/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.threads.net/@honjohayumi" target="_blank" rel="noopener">Threads</a></li>
+            <li><a href="https://www.youtube.com/@honjoh_ayumi" target="_blank" rel="noopener">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-heading">Shop</h3>
+          <ul class="social-list">
+            <li><a href="https://honjoh.base.shop/" target="_blank" rel="noopener">BASE</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-heading">Media</h3>
+          <ul class="social-list">
+            <li><a href="https://ontama.media" target="_blank" rel="noopener">ontama</a></li>
+            <li><a href="https://na-na.media" target="_blank" rel="noopener">na-na</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Honjoh Ayumi. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
