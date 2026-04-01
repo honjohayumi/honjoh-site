@@ -1,6 +1,7 @@
 /* ========================================
    HONJOH AYUMI — Multi-Artist Homepage
    Monotone / Premium / Artistic
+   Build: 20260401-1535
    ======================================== */
 
 /* --- Reset & Base --- */
@@ -230,9 +231,6 @@ img {
   position: relative;
   height: 100vh;
   min-height: 600px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   overflow: hidden;
 }
 
@@ -273,12 +271,12 @@ img {
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
   z-index: 2;
   padding: calc(var(--space-2xl) + 2rem) var(--space-md) var(--space-xl);
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 46%;
 }
 
 .hero-split {
@@ -289,8 +287,7 @@ img {
 }
 
 .hero-text {
-  flex: 1;
-  max-width: 480px;
+  width: 100%;
 }
 
 .hero-portrait {
@@ -1177,6 +1174,12 @@ img {
 
   .hero-img {
     object-position: center 30%;
+  }
+
+  .hero-content {
+    position: relative;
+    width: 100%;
+    padding: calc(var(--space-2xl) + 2rem) var(--space-md) var(--space-xl);
   }
 }
 
